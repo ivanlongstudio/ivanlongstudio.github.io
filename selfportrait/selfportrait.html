@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- local style sheet after bootstrap, this formatting is for comments-->
+  <title>ivanlongportfolio</title>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>Ivan Long's Portfolio</h1>
+  
+</div>
+
+<h1>Gallery</h1>
+<nav class="navbar navbar-expand-sm bg-light">
+	<div class="container-fluid">
+ <ul class="navbar-nav">
+  <li class="nav-item">
+	<a class="nav-link" href="meme.html">meme</a></li>
+  <li class="nav-item">
+	<a class="nav-link" href="glitch.html">glitch</a></li>
+  <li class="nav-item">
+	<a class="nav-link" href="mcart.html">mcart</a></li>
+  <li class="nav-item">
+	<a class="nav-link" href="cyoabald/index.html" target="_blank">netart</a></li>
+  <li class="nav-item">
+	<a class="nav-link" href="3d.html">3d</a></li>
+  <li class="nav-item">
+	<a class="nav-link" href="selfportrait/selfportrait.html">self portrait</a></li>
+</ul> 
+</div>
+</nav>
+ 
+ <iframe src="https://ivanlongstudio.github.io/p5jsshapecodedrawing/index.html" title="coding self portrait"></iframe> 
+
+<p> function setup() {
+createCanvas(600, 600);
+background(240);
+
+}
+function draw() {
+  
+
+
+fill(59,60,54); //hair back
+ quad(180, 436, 220, 160, 390, 160, 486, 440);
+
+fill(105,105,105); //body
+ellipse(300, 500, 230, 350);
+
+
+fill(255,218,185); //head
+ellipse(300, 300, 250, 250);
+
+fill(59,60,54); //hair front
+triangle(347, 250, 392, 172, 300, 147);
+triangle(225, 250, 208, 172, 300, 147);
+triangle(180, 300, 190, 200, 243, 190);
+triangle(420, 300, 430, 250, 380, 185);
+triangle(395, 290, 430, 200, 290, 160);
+triangle(300, 150, 230, 240, 320, 200);
+
+fill(240);  //mouth
+line(250, 358, 350, 358);
+
+fill(240); //eyebrows
+line(270, 245, 230, 245);
+line(330, 245, 370, 245);
+
+fill(240); //nose
+line(300, 280, 300, 310);
+
+fill(16,12,8); //eyes
+ellipse(260, 270, 20, 20);
+ellipse(340, 270, 20, 20);
+
+//arms
+line(500, 450, 413, 500);
+line(100, 450, 187, 500);
+}
+
+</body>
+</html> 
