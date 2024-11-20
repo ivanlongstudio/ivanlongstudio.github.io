@@ -37,7 +37,9 @@ function draw() {
   newkeyChoice(choice);  // if the mouse is pressed call newkeyChoice
   }
 }
-
+function windowResized(){
+  resizeCanvas(windowWith, windowHeight);
+}
 function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   // the key mapping if statements that you can change to do anything you want.
   // just make sure each key option has the a stroke or fill and then what type of
